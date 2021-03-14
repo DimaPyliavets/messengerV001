@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "342019237226",
+    "project_id": "messenger-app-fd1c6",
+    "storage_bucket": "messenger-app-fd1c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342019237226:android:6ded74a2e3af0056a33113",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342019237226-v3jdt6p56kktpdqkjsgvbsajjvi17d62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "40a78350d96fa832ccbcc71df7b98c33c813ef34"
+          }
+        },
+        {
+          "client_id": "342019237226-qeso46176enc0ddq04udiesvfsln5lmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARKaCmYTWwz8Ba8mDBxTbHJbTn3vbgzio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342019237226-qeso46176enc0ddq04udiesvfsln5lmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342019237226:android:42c79f2bdd0a4f06a33113",
+        "android_client_info": {
+          "package_name": "com.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342019237226-qeso46176enc0ddq04udiesvfsln5lmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARKaCmYTWwz8Ba8mDBxTbHJbTn3vbgzio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342019237226-qeso46176enc0ddq04udiesvfsln5lmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
