@@ -34,21 +34,21 @@
             app:met_floatingLabel="normal"
             android:hint="Username"/>
 
-        <com.rengwuxian.materialedittext.MaterialEditText
+        <!-- <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/name"
             android:layout_marginTop="10dp"
             app:met_floatingLabel="normal"
-            android:hint="Name"/>
+            android:hint="Name"/> -->
 
-        <com.rengwuxian.materialedittext.MaterialEditText
+        <!--<com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/surname"
             android:layout_marginTop="10dp"
             app:met_floatingLabel="normal"
-            android:hint="Surname"/>
+            android:hint="Surname"/> -->
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:text="register"
             android:id="@+id/register_BTN"
-            android:background="@color/colorPrimaryDark"
+            android:background="#34495E"
             android:layout_marginTop="10dp"
             android:textColor="#fff"
             />
