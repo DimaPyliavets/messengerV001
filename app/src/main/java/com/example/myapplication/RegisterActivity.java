@@ -2,11 +2,15 @@ package com.example.myapplication;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -32,12 +36,34 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Registration");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         username = findViewById(R.id.username);
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
         register_BTN = findViewById(R.id.register_BTN);
 
         auth = FirebaseAuth.getInstance();
+
+        register_BTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String txt_username = username.getText().toString();
+                String txt_email = email.getText().toString();
+                String txt_password = password.getText().toString();
+
+                if (TextUtils.isEmpty(txt_username) || TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)){
+                    Toast.makeText(RegisterActivity.this, "All is empty", Toast.LENGTH_SHORT).show();
+                } else if (txt_password.length() < 5){
+                    Toast.makeText(RegisterActivity.this, "Enter more than 5 symbols", Toast.LENGTH_SHORT).show();
+                } else {
+                    register (txt_username,txt_email,txt_password);
+                }
+            }
+        });
 
     }
 
