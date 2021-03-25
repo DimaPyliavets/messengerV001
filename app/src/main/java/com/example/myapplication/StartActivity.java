@@ -36,6 +36,7 @@ public class StartActivity extends AppCompatActivity {
 
         login = findViewById(R.id.login_BTN);
         register = findViewById(R.id.register_BTN);
+        exit = findViewById(R.id.exit_BTN);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +52,13 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
+        exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                System.exit(0);
+            }
+        });
 
     }
 }
