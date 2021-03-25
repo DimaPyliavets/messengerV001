@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="#fff"
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
@@ -13,24 +14,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Messenger"
+        android:textColor="#000"
         android:textSize="45sp" />
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginTop="100dp"
         android:id="@+id/login_BTN"
         android:text="login"/>
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/register_BTN"
-        android:text="register"/>
+        android:text="registration"/>
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/exit_BTN"
         android:text="exit"/>
 

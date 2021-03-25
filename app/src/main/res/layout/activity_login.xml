@@ -9,6 +9,7 @@
 
     <include
         android:id="@+id/toolbar"
+        android:text="Login"
         layout="@layout/bar_layout" />
 
     <LinearLayout
